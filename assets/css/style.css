@@ -43,28 +43,28 @@ h2 {
     color: #fff;
 }
 
-header .line {
+.header__line {
     background-color: #117050;
     height: 10px;
 }
-.header--area {    
+.header__area {    
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
-.header--left img {
+.header__left img {
     width: 64px;
     height: 64px;
 }
-.header--right {
+.header__right {
     display: flex;
     align-items: center;
 }
-.header--search form {
+.header__search form {
     display: flex;
 }
-.header--search input {
+.header__search input {
     font-size: 14px;
     padding: 7px 18px;
     border: 1px solid #999;
@@ -72,21 +72,21 @@ header .line {
     width: 100%;
     max-width: 250px;
 }
-.header--search button {
+.header__search button {
     border: 0;
     background-color: transparent;
     margin-left: -30px;
     cursor: pointer;
 }
-.header--search button img {
+.header__search button img {
     width: 16px;
     height: 16px;
 }
-.header--menu {
+.header__menu {
     margin-left: 50px;
     cursor: pointer;
 }
-.header--menu img {
+.header__menu img {
     width: 24px;
     height: 24px;
 }
@@ -98,10 +98,10 @@ header .line {
     padding-bottom: 90px;
 }
 
-.banner--images {
+.banner__images {
     margin-top: 60px;
 }
-.banner--images img {
+.banner__images img {
     width: 148px;
     height: 148px;
     border: 6px solid #117050;
@@ -112,23 +112,23 @@ header .line {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.area1--content {
+.area1__content {
     padding: 70px 100px;
 }
-.area1--quote {
+.area1__quote {
     margin-bottom: 30px;
 }
-.area1--text {
+.area1__text {
     margin-bottom: 50px;
     line-height: 25px;
 }
-.area1--img1 {
+.area1__img1 {
     height: 350px;
     background-image: url("../images/f2.jpg");
     background-size: cover;
     background-position: center;
 }
-.area1--img2 {
+.area1__img2 {
     background-image: url("../images/f1.jpg");
     background-size: cover;
     background-position: center;
@@ -140,20 +140,20 @@ header .line {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.area2--content {
+.area2__content {
     padding: 70px 100px;
 }
-.area2--text {
+.area2__text {
     margin-bottom: 50px;
     line-height: 25px;
 }
-.area2--img1 {
+.area2__img1 {
     height: 450px;
     background-image: url("../images/f4.jpg");
     background-size: cover;
     background-position: center;
 }
-.area2--img2 {
+.area2__img2 {
     background-image: url("../images/f3.jpg");
     background-size: cover;
     background-position: center;
@@ -165,17 +165,17 @@ header .line {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.area3--content {
+.area3__content {
     padding: 200px 120px;
     background-image: url("../images/bg2.jpg");
     background-size: cover;
     background-position: left;
 }
-.area3--text {
+.area3__text {
     margin-bottom: 50px;
     line-height: 25px;
 }
-.area3--img1 {
+.area3__img1 {
     background-image: url("../images/f5.jpg");
     background-size: cover;
     background-position: center;
@@ -185,15 +185,15 @@ header .line {
     display: grid;
     grid-template-columns: 450px 1fr;
 }
-.area4--content{
+.area4__content{
     padding: 130px 80px;
     background-color: #e8e9ee;
 }
-.area4--text {
+.area4__text {
     margin-bottom: 50px;
     line-height: 25px;
 }
-.area4--img1 {
+.area4__img1 {
     background-image: url("../images/bg3.jpg");
     background-size: cover;
     background-position: left;
@@ -209,15 +209,15 @@ footer {
     text-align: center;
     color: #fff
 }
-.footer--text {
+.footer__text {
     font-size: 14px;
     padding: 50px 0px;
 }
-.footer--credit {
+.footer__credit {
     font-size: 13px;
     padding: 40px 0px;
 }
-.footer--credit a {
+.footer__credit a {
     color: #a8f8dd;
 }
 
@@ -248,10 +248,10 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .header--menu {        
+    .header__menu {        
         margin-left: 30px;
     }
-    .header--search input {        
+    .header__search input {        
         max-width: 80px;
     }
     h1 {
@@ -262,7 +262,7 @@ footer {
         font-size: 25px;
         line-height: 30px;
     }
-    .banner--images img {
+    .banner__images img {
         width: 70px;
         height: 70px;
         margin-right: 10px;
@@ -273,17 +273,17 @@ footer {
     .area4 {
         grid-template-columns: 1fr;
     }
-    .area1--content,
-    .area2--content,
-    .area3--content,
-    .area4--content {
+    .area1__content,
+    .area2__content,
+    .area3__content,
+    .area4__content {
         padding: 40px;
     }
     .area5 {
         height: 200px;
     }
-    .footer--text,
-    .footer--credit {
+    .footer__text,
+    .footer__credit {
         padding: 15px 0px;
         font-size: 12px;
     }
